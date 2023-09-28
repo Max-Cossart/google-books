@@ -17,7 +17,7 @@ const SearchBar = ({ setBooks }) => {
 
   const fetchBooks = async (searchTerm) => {
     const response = await fetch(
-      `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}:keyes&key=AIzaSyCJT7XBbq7jORV6iv_E8XZaKBPZqjZjXkU`
+      `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}`
     );
 
     const data = await response.json();
