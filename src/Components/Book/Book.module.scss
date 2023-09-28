@@ -1,0 +1,45 @@
+.books {
+  background-color: #f3eef6;
+  padding-bottom: 300px;
+}
+
+.books_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 8px;
+  width: 21%;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+}
+
+.book_header {
+  color: purple;
+  padding: 12px;
+  text-decoration: underline;
+}
+
+.book_author {
+  padding-bottom: 12px;
+  color: purple;
+}
+
+.book_description {
+  color: purple;
+}
+
+.book_img {
+  height: 250px;
+}

@@ -1,0 +1,38 @@
+.nav {
+  background-color: #e2c6ff;
+  padding: 12px;
+  border-bottom: 2px solid purple;
+}
+
+.logo {
+  color: rgb(64, 0, 66);
+  font-size: 24px;
+  padding-left: 12px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(64, 0, 66);
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.space {
+  padding-right: 8px;
+}
